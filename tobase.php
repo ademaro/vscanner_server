@@ -1,5 +1,5 @@
-<?php
-$mysqli = new mysqli("localhost", "u787682332_scane", "260689", "u787682332_vscan");
+﻿<?php
+$mysqli = new mysqli("HOST", "LOG", "PAASS", "TABL");
 if ($mysqli->connect_errno) {
     echo "Не удалось подключиться к MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
     }
